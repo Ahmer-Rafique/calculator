@@ -76,12 +76,12 @@ const Calculator = () => {
         ))}
         <button
           onClick={handleClear}
-          className="col-span-1 md:col-span-1 p-2 bg-green-500 hover:bg-green-600 text-white text-lg rounded-full h-12 w-12 text-center"
+          className="col-span-2 md:col-span-2 p-2 bg-green-500 hover:bg-green-600 text-white text-lg rounded-full h-12 w-36 text-center "
         >
           C
         </button>
         <button onClick={removeDigit}
-        className="col-span-2 md:col-span-1 p-2 bg-yellow-500 hover:bg-yellow-600 text-white text-lg rounded-full h-12 w-12 text-center"
+        className="col-span-2 md:col-span-2 p-2 bg-yellow-500 hover:bg-yellow-600 text-white text-lg rounded-full h-12 w-36 text-center"
         >
           X
         </button>
