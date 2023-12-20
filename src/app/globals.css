@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    margin: 0;
+            padding: 0;
+    background-image:url(./backGround.jpg);
+    background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+}
